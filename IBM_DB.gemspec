@@ -61,4 +61,4 @@ if $0 == __FILE__
   Gem::Builder.new(spec).build
 end
 
-return SPEC
+SPEC
