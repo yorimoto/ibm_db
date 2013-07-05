@@ -85,7 +85,7 @@ def crash(str)
   exit 1
 end
 
-if( RUBY_VERSION =~ /1.9/)
+if( RUBY_VERSION =~ /2.0/)
   create_header('gil_release_version')
   create_header('unicode_support_version')
 end
